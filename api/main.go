@@ -1,5 +1,11 @@
 package main
 
+import (
+	"github.com/gin-gonic/gin"
+)
+
 func main() {
-	print("Hello world!")
+	server := gin.Default()
+
+	server.Run("8080")
 }
