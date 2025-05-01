@@ -1,3 +1,5 @@
 package models
 
-type game struct{}
+type game struct {
+	id int
+}
